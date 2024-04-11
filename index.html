@@ -1,85 +1,257 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: "Lato", sans-serif;}
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>Sama Al Nahda Project Management Service</title>
+		
+		 <!-- Favicon -->
+		<link href="images/favicon.ico" rel="icon">
 
-.tablink {
-  background-color: #555;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
-}
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="fonts/lineo-icon/style.css" rel="stylesheet" type="text/css">
 
-.tablink:hover {
-  background-color: #777;
-}
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script>
+	$(function(){
+      $("#swhead").load("sw_head.html");
+      $("#swfoot").load("sw_foot.html");
+      $("#swfLink").load("sw_footlink.html");
+    });
+	</script>
+	</head>
 
-/* Style the tab content */
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 50px;
-  text-align: center;
-}
-
-#London {background-color:red;}
-#Paris {background-color:green;}
-#Tokyo {background-color:blue;}
-#Oslo {background-color:orange;}
-</style>
-</head>
 <body>
+	<div id="site-content">
+		<header id="swhead" class="site-header"></header> <!-- .site-header -->
+			<div class="hero hero-slider">
+				<ul class="slides">
+					<li data-bg-image="images/slide-1-2.jpg">
+						<div class="container">
+							<div class="slide-content">
+								<h2 class="slide-title">Sama Al Nahda Project <strong>Management Service</strong></h2>
+								<p>Enjoy flexible insurance that covers personal accident, property loss, property damage, private health plan and family benefit.</p>
+								<a href="#" class="button">Read More</a>
+							</div>
+						</div>
+					</li>
+					<li data-bg-image="images/slide-2.jpg">
+						<div class="container">
+							<div class="slide-content">
+								<h2 class="slide-title">Sama Al Nahda Project <strong>Management Service</strong></h2>
+								<p>Enjoy flexible insurance that covers personal accident, property loss, property damage, private health plan and family benefit.</p>
+								<a href="#" class="button">Read More</a>
+							</div>
+						</div>
+					</li>
+					<li data-bg-image="images/slide-3.jpg">
+						<div class="container">
+							<div class="slide-content">
+								<h2 class="slide-title">Sama Al Nahda Project <strong>Management Service</strong></h2>
+								<p>Enjoy flexible insurance that covers personal accident, property loss, property damage, private health plan and family benefit.</p>
+								<a href="#" class="button">Read More</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div> <!-- .hero-slider -->
 
-<div id="London" class="tabcontent">
-  <h1>London</h1>
-  <p>London is the capital city of England.</p>
+			<main class="main-content">
+				<div class="fullwidth-block greet-section">
+					<div class="container">
+						<h2 class="section-title">There's a lot we can do for you</h2>
+						<small class="section-subtitle">Welcome to Sama Al Nahda Project Management Service, your leading insurance specialist in the UAE.</small>
+
+						<div class="row">
+							<div class="col-md-3">
+								<div class="feature">
+									<i class="icon-phone-24"></i>
+									<h3 class="feature-title">24 hours Service</h3>
+									<p>You can reach us from your device, email and call us, because we are here for you 24 hours of everyday </p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="feature">
+									<i class="icon-hotel"></i>
+									<h3 class="feature-title">Health Insurance</h3>
+									<p>We have several life and health insurance agents to accommodate your needs.</p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="feature">
+									<i class="icon-luggage"></i>
+									<h3 class="feature-title">Banker’s Blanket Bond </h3>
+									<p>We protects the assets and liabilities of the banks against losses from criminal acts performed by their own employees.</p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="feature">
+									<i class="icon-credit-card-hand"></i>
+									<h3 class="feature-title">Mortgage Plan</h3>
+									<p>We help pay off an outstanding mortgage in the event of death, during the policy term. No one ever plans to get sick or die unexpectedly.</p>
+								</div>
+							</div>
+						</div> <!-- .row -->
+						<!--
+						<div class="text-center">
+							<p>Sollicitudin sit tortor pellentesque. <a href="#">Read more</a></p>
+						</div>-->
+					</div> <!-- .container -->
+				</div> <!-- .fullwidth-block -->
+
+				<div class="fullwidth-block" data-bg-color="#f1f1f1">
+					<div class="container">
+						<h2 class="section-title">Our insurance offer</h2>
+						<small class="section-subtitle">We have the best policies for you</small>
+
+						<div class="row">
+							<div class="col-md-3">
+								<div class="offer caption-top">
+									<img src="images/offer-tall.jpg" alt="offer 1">
+									<div class="caption">
+										<h3 class="offer-title">Travel Insurance</h3>
+										<!--<small>Conubia nostra per inceptos</small>-->
+									</div>
+								</div>
+							</div>
+							<div class="col-md-9">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="offer caption-bottom">
+											<img src="images/offer-1-0.jpg" alt="offer 2">
+											<div class="caption">
+												<h3 class="offer-title">Property Insurance</h3>
+												
+											</div>
+										</div>
+									</div>
+									<div class="col-md-8">
+										<div class="offer caption-bottom">
+									<img src="images/offer-wide-0.jpg" alt="offer 3">
+									<div class="caption">
+										<h3 class="offer-title">Yacht insurance</h3>
+									</div>
+								</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="offer caption-bottom">
+											<img src="images/offer-2-0.jpg" alt="offer 2">
+											<div class="caption">
+												<h3 class="offer-title">Medical insurance</h3>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="offer caption-bottom">
+											<img src="images/offer-3-0.jpg" alt="offer 2">
+											<div class="caption">
+												<h3 class="offer-title">Home Insurance </h3>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="offer caption-bottom">
+											<img src="images/offer-4-0.jpg" alt="offer 2">
+											<div class="caption">
+												<h3 class="offer-title">Business Insurance</h3>
+											</div>
+										</div>
+									</div>
+								</div> <!-- .row -->
+							</div> <!-- .col-md-8 -->
+						</div> <!-- .row -->
+
+					</div> <!-- .container -->
+				</div> <!-- .offer-section -->
+
+				<div class="fullwidth-block">
+					<div class="container">
+						<h2 class="section-title">Plan and protect what matters</h2>
+						<div class="row news-list">
+							<div class="col-md-4">
+								<div class="news">
+									<figure><img src="images/featured-image-1-0.jpg" alt=""></figure>
+									<!--<div class="date"><img src="images/icon-calendar.png" alt="">03/09/2014</div>-->
+									<!--<h2 class="entry-title"><a href="#"></a></h2>-->
+									<h3>BUSINESS</h3>
+									
+									<p>As the owner of a company, you don’t just need an agent. You need a business partner. Our commercial insurance team has you covered. We care about the success of your business and want to make sure that a claim doesn’t stand in your way. Ample offers many types of insurance for your business</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="news">
+									<figure><img src="images/featured-image-2-0.jpg" alt=""></figure>
+									<!--<div class="date"><img src="images/icon-calendar.png" alt="">03/09/2014</div>
+									<h2 class="entry-title"><a href="#">Donec laoreet non nec aliquam pellentesque interdum</a></h2>-->
+									<h3>HOME</h3>
+									
+									<p>Homeowners insurance protects more than just your house. It protects your family and your belongings. As Floridians, all of us risk damage to our homes due to inclement weather. From hurricanes and fires to hail damage and flooding, it’s imperative to make sure your home has the appropriate amount of coverage. That’s where we come. Our licensed insurance agents can explain what you need to properly insure your home and its contents. Contact us to review your homeowners policy.</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="news">
+									<figure><img src="images/featured-image-3.jpg" alt=""></figure>
+									<!--<div class="date"><img src="images/icon-calendar.png" alt="">03/09/2014</div>
+									<h2 class="entry-title"><a href="#">Donec laoreet non nec aliquam pellentesque interdum</a></h2>-->
+									<h3>HEALTH</h3>
+									
+									<p>The simple tiered range of our health plans brings the same great service expected from us, but it’s more than just insurance, we also look out for our customers’ all-round health with a number of wellness services included. So whether in times when customers need us most, like when they are ill or facing a serious health condition, or when they are healthy, we’ll be there.</p>
+								</div>
+							</div>
+						</div> <!-- .row -->
+					</div> <!-- .container -->
+				</div> <!-- .latest-news-section -->
+
+				<div class="fullwidth-block" data-bg-color="#0f75bd">
+					<div class="container">
+						<!--<div class="testimonial-slider">
+							<ul class="slides">
+								<li>
+									<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam quod explicabo optio quia ex odit, sequi harum voluptatibus autem. Nam autem corporis deleniti fugiat omnis itaque, quis laudantium dolor facere.<cite>John Smith</cite></blockquote>
+								</li>
+								<li>
+									<blockquote>At doloremque, itaque molestias neque nesciunt placeat aspernatur veniam fugit enim, dolor, repudiandae a. Laborum optio dolorum qui maxime doloribus eligendi in enim minima quo? Quis tenetur eos, libero exercitationem.<cite>John Smith</cite></blockquote>
+								</li>
+								<li>
+									<blockquote>Ipsam nesciunt velit voluptatem? Voluptas amet, porro eaque asperiores magni rerum vitae nulla inventore, numquam facilis doloribus placeat iure suscipit adipisci dolores modi saepe deserunt nisi. Nam, illum aperiam velit.<cite>John Smith</cite></blockquote>
+								</li>
+							</ul>
+						</div>-->
+						<div class="mission-hd">Our Mission</div>
+						<div class="mission-p">Our mission is to make sure the our customers have the “right” coverage for their families, unparalleled customer service to better serve our customers’ needs.</div>
+					</div> <!-- .container -->
+				</div> <!-- .fullwidth-block -->
+
+			<div class="fullwidth-block">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="call-dv"><p class="call-hd">Have a question or need a help?</p>
+								You can communicate with us 24 hours of the day, you can even reach us on weekends. Contact us through our hot line +971 55 649 3513 
+								</div>
+							</div>
+							
+						</div> <!-- .row -->
+					</div> <!-- .container -->
+				</div> <!-- .latest-news-section -->	
+
+				
+			</main>
+		<div id="swfoot" class="site-footer"></div>
 </div>
+		<div id="swfLink"></div>
+		
+		
+	</body>
 
-<div id="Paris" class="tabcontent">
-  <h1>Paris</h1>
-  <p>Paris is the capital of France.</p> 
-</div>
-
-<div id="Tokyo" class="tabcontent">
-  <h1>Tokyo</h1>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
-
-<div id="Oslo" class="tabcontent">
-  <h1>Oslo</h1>
-  <p>Oslo is the capital of Norway.</p>
-</div>
-
-<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
-<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
-<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
-<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
-
-<script>
-function openCity(cityName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(cityName).style.display = "block";
-  elmnt.style.backgroundColor = color;
-
-}
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
-   
-</body>
-</html> 
+</html>

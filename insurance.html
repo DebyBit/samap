@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>Sama Al Nahda Project Management Service</title>
+		
+		<!-- Favicon -->
+		<link href="images/favicon.ico" rel="icon">
+
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="fonts/lineo-icon/style.css" rel="stylesheet" type="text/css">
+
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script>
+	$(function(){
+      $("#swhead").load("sw_head.html");
+      $("#swfoot").load("sw_foot.html");
+      $("#swfLink").load("sw_footlink.html");
+    });
+	</script>
+	</head>
+
+<body>
+	<div id="site-content">
+		<header id="swhead" class="site-header"></header> <!-- .site-header -->
+<main class="main-content">
+				<div class="breadcrumbs">
+					<div class="container">
+						<a href="./">Home</a>
+						<span>Insurance Plan</span>
+					</div>
+				</div>
+
+				<div class="page">
+					<div class="container">
+						<h3 class="entry-title">Choose your own insurance plan</h3>
+						<p>Sama Al Nahda Project Management Service helps people preserve and protect what they earn, build, own, and cherish. Keeping this promise means we are there when our customers need us most.<br>
+						Throughout our operations around the world, we are committed to providing insurance products and services to meet the needs of individuals, families, and businesses; offering a diverse and dynamic work environment for our employees; and supporting our communities.​ </p>
+						<div class="filter-links filterable-nav">
+							
+							<strong>Select Category: </strong>
+							<a href="personal-insurance.html" class="insurance-type" onclick="myLinkfuc('personal')">PERSONAL</a>
+							<a href="business-insurance.html" class="insurance-type" onclick="myLinkfuc('business')">BUSINESS</a>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<h3><a href="personal-insurance.html">Personal Insurance</a></h3>
+								<ul class="arrow-list">
+									<li>Car insurance</li>
+									<li>Travel Insurance</li>
+									<li>Home Insurance</li>
+									<li>Medical insurance</li>
+									<li>Life Insurance</li>
+									<li>Job Loss Insurance</li>
+									<li>Yacht insurance</li>
+								</ul>
+							</div>
+							<div class="col-md-3">
+								<h3><a href="business-insurance.html">Business Insurance</a></h3>
+								<ul class="arrow-list">
+									<li>Property insurance</li>
+									<li>Business interruption insurance</li>
+									<li>Product Liability Insurance</li>
+									<li>Public liability insurance</li>
+									<li>Life Insurance for Groups</li>
+									<li>Group travel insurance</li>
+									<li>Livestock Insurance</li>
+								</ul>
+							</div>
+						</div>
+
+						 <!-- .row -->
+
+						
+					</div>
+				</div> <!-- .page -->
+			</main>
+		<div id="swfoot" class="site-footer"></div>
+</div>
+		<div id="swfLink"></div>
+		
+		
+	</body>
+
+</html>
+<script>
+function myLinkfuc(params){
+	if(params == "personal"){
+		window.location.href = "personal-insurance.html";
+	}else if  (params == "business"){
+		window.location.href = "business-insurance.html";
+	}
+}
+</script>
